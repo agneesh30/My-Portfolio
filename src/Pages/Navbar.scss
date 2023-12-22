@@ -1,0 +1,34 @@
+$primary:#27374D;
+$secondary:#526D82;
+$bgColor1:#9DB2BF;
+$bgColor2:#DDE6ED;
+
+
+.navbar {
+    background-color: #fff;
+    height: 3rem;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 100;
+   .btn{
+    color: black;
+    border-radius: 0px !important;
+    width: 7rem;
+    transition:0.5s;
+    &:hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px !important;
+        background-color: $primary !important;
+        color:$bgColor2 !important;
+       // transform: scale(1.05);
+    }
+   }
+   h4{
+    font-family: 'Rubik Puddles', cursive;
+   }
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .row{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
