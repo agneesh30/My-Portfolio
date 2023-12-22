@@ -9,7 +9,7 @@ const LandingPage = () => {
                     <div className="lead pt-2">
                         I'm a full-stack web developer who is enthusiastic about building interactive applications and learning new stuffs!!.
                     </div>
-                    <a href='../my-work/Agneesh_resume.pdf' download className="btn seemore mt-3">
+                    <a href='../Agneesh_resume.pdf' download className="btn seemore mt-3">
                         Download Resume
                     </a>
                 </div>
