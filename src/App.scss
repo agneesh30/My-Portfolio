@@ -41,6 +41,20 @@ $bgColor2: #DDE6ED;
     .intro {
         width: 65%;
     }
+
+    .navbar {
+        height: 4rem !important;
+
+        .text-sm-center {
+            display: flex;
+            justify-content: center !important;
+
+            .btn {
+                width: 5rem !important;
+            }
+        }
+
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
