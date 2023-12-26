@@ -8,6 +8,7 @@ import Skills from './Components/Skills'
 import Work from './Components/Work'
 import Navbar from './Pages/Navbar'
 import ProjectDetails from './Components/ProjectDetails'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
             <About />
             <Skills />
             <Work />
-            <Contact /></>} />
+            <Contact />
+          </>} />
           <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="*" element={<Navigate to="/home" />} />
